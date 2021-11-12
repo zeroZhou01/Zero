@@ -50,7 +50,6 @@ def test_cookie():
 #   driver.find_element(By.XPATH,"//div[@class='member_edit_item_right']/input[@name='acctid']").send_keys("hshsg233")
 #   driver.find_element(By.XPATH,"//input[@class='ww_checkbox'and@name='sendInvite']").click()
 #   driver.find_element(By.XPATH,"//form/div[@class='member_colRight_operationBar ww_operationBar']/a[@class='qui_btn ww_btn js_btn_save']").click()
-#   我没遇到 添加成员按钮 点击失败的问题，直接跑通了
 #    driver.find_element(By.LINK_TEXT,"添加成员").click()
 if __name__ == '__main__':
     test_cookie()
